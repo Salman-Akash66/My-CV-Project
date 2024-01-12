@@ -1,0 +1,360 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: url(image/logo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+
+.container {
+    font-weight: bold;
+    max-width: 900px;
+    margin: 10px auto;
+    /* background: skyblue; */
+}
+
+
+/*-----heder section start-----*/
+
+.header-section {}
+
+
+/*-----heder right start-----*/
+
+.header-right {
+    float: right;
+    margin-top: 20px;
+    text-align: justify;
+}
+
+.header-right a p {
+    text-decoration: underline;
+}
+
+.first {
+    color: blue;
+    margin: 5px;
+    text-transform: uppercase;
+}
+
+.first-one {
+    color: #ee55ee;
+    margin: 5px;
+    text-transform: uppercase;
+}
+
+.first-one:hover {
+    color: tomato;
+    font-size: 25px;
+}
+
+.first:hover {
+    color: #100f22;
+    border: 3px dotted red;
+    font-size: 30px;
+}
+
+.header-right a {
+    text-decoration: none;
+    padding: 0px;
+}
+
+.header-right a:hover {
+    color: red;
+    text-decoration: underline;
+    font-size: 18px;
+}
+
+
+/*-----heder right end-----*/
+
+.clear-div {
+    clear: both;
+}
+
+
+/*-----heder left start-----*/
+
+.header-left {
+    float: left;
+}
+
+.image {
+    width: 100px;
+    height: 110px;
+    margin-top: 5px;
+    border-radius: 50%;
+}
+
+.image:hover {
+    width: 350px;
+    height: 300px;
+    border: 4px solid yellow;
+    font-weight: bold;
+}
+
+
+/*-----heder left end-----*/
+
+hr {
+    border: 3px solid black;
+    margin: auto;
+    border-bottom: 0px;
+}
+
+
+/*-----heder section end-----*/
+
+
+/*-----main section start-----*/
+
+.main-section {
+    margin: 10px;
+}
+
+
+/*---main up start--*/
+
+.main-up {
+    color: #dd44dd;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    word-spacing: 8px;
+}
+
+.main-up:hover {
+    text-decoration: underline;
+    color: teal;
+    cursor: context-menu;
+}
+
+.border {
+    height: 2px;
+    background: orange;
+    border: 2px dotted green;
+}
+
+
+/*--main up end---*/
+
+
+/*---main befor right start----*/
+
+.main-befor-right {
+    text-transform: uppercase;
+    width: 25%;
+    float: left;
+}
+
+.main-befor-right:hover {
+    font-size: 18px;
+    /* border: 2px solid red;
+    border-radius:10%; */
+    margin-top: 6px;
+    color: white;
+    font-weight: bold;
+    background: teal;
+    padding: 10px;
+    background-color: transparent;
+}
+
+
+/*---main befor right end----*/
+
+
+/*---main right start----*/
+
+.main-right {
+    text-indent: 30px;
+    text-align: justify;
+    margin-top: 10px;
+    text-transform: capitalize;
+    float: right;
+    width: 45%;
+}
+
+
+/*---main right end----*/
+
+
+/*---main left start----*/
+
+.main-left {
+    text-indent: 30px;
+    text-align: justify;
+    margin-top: 10px;
+    text-transform: capitalize;
+    float: left;
+    width: 25%;
+}
+
+
+/*---main left end----*/
+
+
+/*-----main section end-----*/
+
+
+}
+
+/*-----footer section start-----*/
+.footer-section {}
+.footer-right {
+    text-indent: 30px;
+    text-align: justify;
+    float: right;
+    width: 25%;
+    text-transform: capitalize;
+    padding: 20px 5px 20px 5px;
+}
+.footer-middle {
+    text-indent: 30px;
+    text-align: justify;
+    float: left;
+    width: 50%;
+    text-transform: capitalize;
+    padding: 20px 5px 20px 5px;
+}
+.footer-left {
+    float: left;
+    width: 20%;
+    text-transform: uppercase;
+    padding: 20px 5px 20px 5px;
+}
+.footer-left:hover {
+    font-size: 18px;
+    /* border: 2px solid red;
+        border-radius:10%; */
+    
+    margin-top: 6px;
+    color: white;
+    font-weight: bold;
+    background: teal;
+    padding: 10px;
+    background-color: transparent;
+}
+.footer-left:focus {
+    font-size: 40px;
+}
+.footer-beautiful {}
+.footer-beautiful-left {
+    text-transform: uppercase;
+    margin: 15px 0px 0px 10px;
+    float: left;
+    width: 25%;
+}
+.footer-beautiful-left:hover {
+    font-size: 18px;
+    /* border: 2px solid red;
+    border-radius:10%; */
+    
+    margin-top: 6px;
+    color: white;
+    font-weight: bold;
+    background: teal;
+    padding: 10px;
+    background-color: transparent;
+}
+.footer-beautiful-middle {
+    text-indent: 30px;
+    margin: 0px 0px 0px 30px;
+    text-align: justify;
+    float: left;
+    width: 35%;
+}
+.footer-beautiful-right {
+    text-indent: 30px;
+    text-align: justify;
+    float: right;
+    width: 30%;
+}
+.footer-down {
+    float: left;
+    margin: 20px 20px;
+}
+.footer-down ul {
+    margin-top: 20px;
+}
+.footer-down ul li {
+    text-transform: capitalize;
+    background: teal;
+    display: inline;
+    padding: 5px;
+    border: 2px dotted blue;
+    margin: 5px 10px 5px 10px;
+}
+.footer-down ul li a {
+    text-decoration: none;
+    color: white;
+}
+.footer-down ul li:hover {
+    color: red;
+    text-shadow: 1px solid yellow;
+    font-size: 20px;
+    background: tomato;
+}
+.footer-down ul li a:hover {
+    color: orange;
+}
+
+/*-----footer section end-----*/
+
+/*---end of container start---*/
+.login-section {
+    height: 300px;
+    margin: 60px 10px 10px 20px;
+}
+div label {
+    border: 1px solid red;
+    padding: 8px;
+    text-transform: capitalize;
+    background: teal;
+}
+div label:hover {
+    background-color: tomato;
+    color: white;
+}
+div input {
+    margin-top: 20px;
+    text-transform: capitalize;
+    padding: 8px;
+    width: 80%;
+    background: hotpink;
+}
+div input:hover {
+    background-color: teal;
+    color: yellow;
+}
+.login-fname {
+    padding-left: 50px;
+}
+.login-lname {
+    padding-left: 50px;
+}
+.login-password {
+    padding-left: 60px;
+}
+.login-cpassword {}
+.fname {
+    margin-left: 3px;
+    color: blue;
+}
+.lname {
+    margin-left: 3px;
+    color: skyblue;
+}
+.password {
+    margin-left: 3px;
+    color: lightgrey;
+}
+.cpassword {
+    color: white grey;
+}
+
+/*---end of container start---*/
